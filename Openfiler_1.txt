@@ -1,0 +1,42 @@
+Differences:
+
+RAID-5 requires minimum three drives and can tolerate failure of one drive. 
+RAID-6 requires minimum four drives and can tolerate failure of two drives.
+While RAID-5 uses striping and parity, RAID-6 also uses it but in a form of double parity.
+This gives the ability of recovering the data when two drives fail.
+
+Advantages:
+RAID-5:
+More storage efficient (3 vs 4 drives required).
+More cost efficient.
+
+RAID-6:
+Better data protection.
+Better fault tolerance.
+
+Disadvantages:
+RAID-5:
+Parity can impact the performance, espacially during write operations.
+Long rebuild times.
+Limited fault tolerance.
+
+RAID-6:
+High hardware and complexity requirements
+High cost
+Slower write performance, similar to the RAID-5s
+Reduced storage efficiency due to two drive requirement for dual parity
+
+
+LDAP:
+
+Centralized User Management, allowing to create, modify, and delete user accounts, as well as manage group memberships from a single, central directory server.
+
+Single Sign-On (SSO), allowing users to log in once and access multiple services and resources without the need to enter credentials repeatedly.
+
+Enhanced Security, including strong password policies, account lockouts, and account expiration.
+
+Integration with Other Services, as they are widely supported by a variety of applications and services, allowing integration with various different systems, especially Microsoft ones.
+
+Scalability, as LDAP is designed to scale with the needs of the organization.
+
+Group Policy Management, allowing to define and enforce policies, security settings, and configurations for user accounts and computers throughout your network.
